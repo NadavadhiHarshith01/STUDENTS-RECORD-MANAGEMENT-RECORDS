@@ -9,7 +9,7 @@ const Compose = () => {
   const [data, setData] = useState([]);
   const [tabledark, setTableDark] = useState("");
   const [search1, setSearch] = useState("");
-  console.log(search1);
+  // console.log(search1);
 
 
   function getData() {
@@ -112,7 +112,7 @@ const Compose = () => {
         <Link to="/insert">
           <button className="btn btn-outline-primary">Create</button>
         </Link>
-        <input className="search" placeholder="Search" name="search1" value={search1} type="text"  onChange={(e) => setSearch(e.target.value)} />
+        <input className="search" placeholder="Search by ID / NAME" name="search1" value={search1} type="text"  onChange={(e) => setSearch(e.target.value)} />
       </div>
 
 
@@ -121,16 +121,15 @@ const Compose = () => {
           <tr>
 
 
-            <th scope="col">S.no</th>
-            <th scope="col">criminal_category_id</th>
-            <th scope="col">criminal_category_name</th>
-            <th scope="col">criminal_description</th>
-            <th scope="col">nature_id</th>
-
-            <th scope="col">nature_name</th>
-            <th scope="col">nature_description</th>
-            <th scope="col">criminal_address</th>
-            <th scope="col">victim_id</th>
+            <th scope="col">S.No</th>
+            <th scope="col">Reg.No</th>
+            <th scope="col">Student Name</th>
+            <th scope="col">Program</th>
+            <th scope="col">Year of Join</th>
+            <th scope="col">Number</th>
+            <th scope="col">Address</th>
+            <th scope="col">12th marks</th>
+            <th scope="col">Fee</th>
 
 
 
@@ -140,20 +139,15 @@ const Compose = () => {
         </thead>
 
         {data.map((eachData) => {
+
           Number(search1);
             let se=search1/search1;
-
-            if(se==true){
-              console.log(search1);
-              if(search1==eachData.id){
+            if(se==true ||search1==eachData.criminal_category_name ){
+              if(search1==eachData.id||search1==eachData.criminal_category_name){
                 return (
                   <>
-
                     <tbody>
                       <tr>
-
-
-
                         <th scope="row">{eachData.id}</th>
                         <td>{eachData.criminal_category_id}</td>
                         <td>{eachData.criminal_category_name}</td>

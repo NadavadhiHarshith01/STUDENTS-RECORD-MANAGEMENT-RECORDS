@@ -56,6 +56,9 @@ const Insert = () => {
         navigate("/");
       });
     }
+    else{
+      alert("Please Fill All Inputs")
+    }
   };
 
   return (
@@ -68,92 +71,95 @@ const Insert = () => {
 
       <div >
                 <div className="criminal_area">
-                          <h1>CRIMINAL DATA</h1>
-                          < input placeholder = "criminal_category_id" name = "criminal_category_id" value = {post.criminal_category_id} onChange = { handleInputs } type = "text" / >
+                          <h1>STUDENTS DETAILS</h1>
+                          < input placeholder = "REG.NO" name = "criminal_category_id" value = {post.criminal_category_id} onChange = { handleInputs } type = "text" / >
                           <br></br>
-                          < input placeholder = "criminal_category_name" name = "criminal_category_name" value = {post.criminal_category_name} onChange = { handleInputs } type = "text" / >
+                          < input placeholder = "NAME" name = "criminal_category_name" value = {post.criminal_category_name} onChange = { handleInputs } type = "text" / >
                           <br></br>
-                          < input placeholder = "criminal_description" name = "criminal_description" value = {post.criminal_description} onChange = { handleInputs } type = "text" / >
+                          < input placeholder = "PROGRAM" name = "criminal_description" value = {post.criminal_description} onChange = { handleInputs } type = "text" / >
                           <br></br>
-                          < input placeholder = "nature_id" name = "nature_id" value = {post.nature_id} onChange = { handleInputs } type = "text" / >
+                          < input placeholder = "YEAR OF JOIN" name = "nature_id" value = {post.nature_id} onChange = { handleInputs } type = "text" / >
                          <br></br>
-                         < input placeholder = "nature_name" name = "nature_name" value = {post.nature_name} onChange = { handleInputs } type = "text" / >
+                         < input placeholder = "NUMBER" name = "nature_name" value = {post.nature_name} onChange = { handleInputs } type = "text" / >
                          <br></br>
-                         < input placeholder = "nature_description" name = "nature_description" value = {post.nature_description} onChange = { handleInputs } type = "text" / >
+                         < input placeholder = "SECOND NUMBER" name = "nature_description" value = {post.nature_description} onChange = { handleInputs } type = "text" / >
                          <br></br>
-                          < input placeholder = "criminal_address" name = "criminal_address" value = {post.criminal_address} onChange = { handleInputs } type = "text" / >
+                          < input placeholder = "ADDRESS" name = "criminal_address" value = {post.criminal_address} onChange = { handleInputs } type = "text" / >
+                         <br></br>
+                         < input placeholder = "12TH MARKS" name = "victim_id" value = {post.victim_id} onChange = { handleInputs } type = "text" / >
+                         <br></br>
+                         < input placeholder = "FEE" name = "victim_name" value = {post.victim_name} onChange = { handleInputs } type = "text" / >
                          <br></br>
                 </div>
                 <div className="victim_area">
-                        <h1>VICTIM DATA</h1>
-                        < input placeholder = "victim_id" name = "victim_id" value = {post.victim_id} onChange = { handleInputs } type = "text" / >
+                        <h1>FATHER DETAILS</h1>
+
+                        < input placeholder = "NAME" name = "victim_address" value = {post.victim_address} onChange = { handleInputs } type = "text" / >
                         <br></br>
-                        < input placeholder = "victim_name" name = "victim_name" value = {post.victim_name} onChange = { handleInputs } type = "text" / >
+                        < input placeholder = "OCCUPATION" name = "victim_city" value = {post.victim_city} onChange = { handleInputs } type = "text" / >
                         <br></br>
-                        < input placeholder = "victim_address" name = "victim_address" value = {post.victim_address} onChange = { handleInputs } type = "text" / >
+                        < input placeholder = "ANNUAL INCOME" name = "victim_state" value = {post.victim_state} onChange = { handleInputs } type = "text" / >
                         <br></br>
-                        < input placeholder = "victim_city" name = "victim_city" value = {post.victim_city} onChange = { handleInputs } type = "text" / >
+                        < input placeholder = "QULIFICATION" name = "victim_country" value = {post.victim_country} onChange = { handleInputs } type = "text" / >
                         <br></br>
-                        < input placeholder = "victim_state" name = "victim_state" value = {post.victim_state} onChange = { handleInputs } type = "text" / >
+                        < input placeholder = "NUMBER" name = "victim_pin" value = {post.victim_pin} onChange = { handleInputs } type = "text" / >
                         <br></br>
-                        < input placeholder = "victim_country" name = "victim_country" value = {post.victim_country} onChange = { handleInputs } type = "text" / >
+                        < input placeholder = "EMAIL" name = "victim_phone" value = {post.victim_phone} onChange = { handleInputs } type = "text" / >
                         <br></br>
-                        < input placeholder = "victim_pin" name = "victim_pin" value = {post.victim_pin} onChange = { handleInputs } type = "text" / >
+                        < input placeholder = "ADDRESS" name = "victim_dob" value = {post.victim_dob} onChange = { handleInputs } type = "text" / >
                         <br></br>
-                        < input placeholder = "victim_phone" name = "victim_phone" value = {post.victim_phone} onChange = { handleInputs } type = "text" / >
-                        <br></br>
-                        < input placeholder = "victim_dob" name = "victim_dob" value = {post.victim_dob} onChange = { handleInputs } type = "text" / >
-                        <br></br>
-                        < input placeholder = "victim_fir_registration_date" name = "victim_fir_registration_date" value = {post.victim_fir_registration_date} onChange = { handleInputs } type = "text" / >
-                        <br></br>
-                        < input placeholder = "victim_other_details" name = "victim_other_details" value = {post.victim_other_details} onChange = { handleInputs } type = "text" / >
-                        <br></br>
-                        < input placeholder = "victim_fir_id" name = "victim_fir_id" value = {post.victim_fir_id} onChange = { handleInputs } type = "text" / >
-                        <br></br>
+
                 </div>
                 <div  className="criminal_area">
-                      <h1>CRIME DATA</h1>
-                      < input placeholder = "crime_nature" name = "crime_nature" value = {post.crime_nature} onChange = { handleInputs } type = "text" / >
+                      <h1>MOTHER DETAILS</h1>
+                      < input placeholder = "NAME" name = "victim_fir_registration_date" value = {post.victim_fir_registration_date} onChange = { handleInputs } type = "text" / >
                       <br></br>
-                      < input placeholder = "crime_date" name = "crime_date" value = {post.crime_date} onChange = { handleInputs } type = "text" / >
+                      < input placeholder = "OCCUPATION" name = "victim_other_details" value = {post.victim_other_details} onChange = { handleInputs } type = "text" / >
                       <br></br>
-                      < input placeholder = "crime_classification" name = "crime_classification" value = {post.crime_classification} onChange = { handleInputs } type = "text" / >
+                      < input placeholder = "QULIFICATION" name = "victim_fir_id" value = {post.victim_fir_id} onChange = { handleInputs } type = "text" / >
                       <br></br>
+                      < input placeholder = "NUMBER" name = "crime_nature" value = {post.crime_nature} onChange = { handleInputs } type = "text" / >
+                      <br></br>
+
                 </div>
                 <div className="victim_area">
 
-                      <h1>INVESTIGATION DATA</h1>
-                      < input placeholder = "investigation_id" name = "investigation_id" value = {post.investigation_id} onChange = { handleInputs } type = "text" / >
+                      <h1>MARKS</h1>
+                      < input placeholder = "10TH CLASS MARKS" name = "crime_date" value = {post.crime_date} onChange = { handleInputs } type = "text" / >
                       <br></br>
-                      < input placeholder = "investigation_officer_id" name = "investigation_officer_id" value = {post.investigation_officer_id} onChange = { handleInputs } type = "text" / >
+                      < input placeholder = "12TH CLASS MARKS" name = "crime_classification" value = {post.crime_classification} onChange = { handleInputs } type = "text" / >
                       <br></br>
-                      < input placeholder = "investigation_start_date" name = "investigation_start_date" value = {post.investigation_start_date} onChange = { handleInputs } type = "text" / >
+                      < input placeholder = "ENTRANCE EXAM MARKS" name = "investigation_id" value = {post.investigation_id} onChange = { handleInputs } type = "text" / >
                       <br></br>
-                      < input placeholder = "investigation_end_date" name = "investigation_end_date" value = {post.investigation_end_date} onChange = { handleInputs } type = "text" / >
+                      < input placeholder = "PROGRAM" name = "investigation_officer_id" value = {post.investigation_officer_id} onChange = { handleInputs } type = "text" / >
+                      <br></br>
+                      < input placeholder = "YEAR OF JOIN" name = "investigation_start_date" value = {post.investigation_start_date} onChange = { handleInputs } type = "text" / >
+                      <br></br>
+                      < input placeholder = "YEAR OF PASS OUT" name = "investigation_end_date" value = {post.investigation_end_date} onChange = { handleInputs } type = "text" / >
                       <br></br>
                 </div>
 
           <div  className="criminal_area">
-                  <h1>EVIDENCE DATA</h1>
-                  < input placeholder = "evidence_id" name = "evidence_id" value = {post.evidence_id} onChange = { handleInputs } type = "text" / >
+                  <h1>MEDICAL HISTORY</h1>
+                  < input placeholder = "PHYSICAL ISSUESS" name = "evidence_id" value = {post.evidence_id} onChange = { handleInputs } type = "text" / >
                   <br></br>
-                  < input placeholder = "evidence_name" name = "evidence_name" value = {post.evidence_name} onChange = { handleInputs } type = "text" / >
+                  < input placeholder = "BLOOD GROPU" name = "evidence_name" value = {post.evidence_name} onChange = { handleInputs } type = "text" / >
                   <br></br>
-                  < input placeholder = "evidence_date" name = "evidence_date" value = {post.evidence_date} onChange = { handleInputs } type = "text" / >
+                  < input placeholder = "MEDICAL ILLNESS" name = "evidence_date" value = {post.evidence_date} onChange = { handleInputs } type = "text" / >
                   <br></br>
-                  < input placeholder = "evidence_description" name = "evidence_description" value = {post.evidence_description} onChange = { handleInputs } type = "text" / >
+                  < input placeholder = "ANY SURGERY" name = "evidence_description" value = {post.evidence_description} onChange = { handleInputs } type = "text" / >
                   <br></br>
           </div>
 
           <div className="victim_area">
-                  <h1>WITNESS DATA</h1>
-                  < input placeholder = "witness_id" name = "witness_id" value = {post.witness_id} onChange = { handleInputs } type = "text" / >
+                  <h1>PERSONAL INFO</h1>
+                  < input placeholder = "PHYSICAL illness" name = "witness_id" value = {post.witness_id} onChange = { handleInputs } type = "text" / >
                   <br></br>
-                  < input placeholder = "witness_name" name = "witness_name" value = {post.witness_name} onChange = { handleInputs } type = "text" / >
+                  < input placeholder = "EMAIL" name = "witness_name" value = {post.witness_name} onChange = { handleInputs } type = "text" / >
                   <br></br>
-                  < input placeholder = "witness_number" name = "witness_number" value = {post.witness_number} onChange = { handleInputs } type = "text" / >
+                  < input placeholder = "SIBLINGS" name = "witness_number" value = {post.witness_number} onChange = { handleInputs } type = "text" / >
                  <br></br>
-                 < input placeholder = "witness_address" name = "witness_address" value = {post.witness_address} onChange = { handleInputs } type = "text" / >
+                 < input placeholder = "STATE/CBSE" name = "witness_address" value = {post.witness_address} onChange = { handleInputs } type = "text" / >
                 <br></br>
           </div>
 

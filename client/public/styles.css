@@ -114,6 +114,9 @@ input[type=text], input[type=password] {
   margin-top: 2%;
   padding-top: 5%;
   text-align: center;
+  width:300px;
+  height:300px;
+  border-radius:20px;
   /* border-radius: 50%; */
 }
 .dashbord{

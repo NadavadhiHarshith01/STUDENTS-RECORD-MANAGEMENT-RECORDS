@@ -46,7 +46,7 @@ const button=()=>{
     form action = ""
     method = "POST" >
     <div >
-    < img className = "img_job" src = "https://cdn.bigjobindia.com/2022/05/West_Bengal_Police_Logo.png" / >
+    < img  className = "img_job" src = "https://www.managedoutsource.com/wp-content/uploads/2021/05/7-best-student-record-management-systems-for-schools.jpg" / >
     < /div>
     <div > < input placeholder = "USERNAME"
     name = "username"

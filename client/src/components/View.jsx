@@ -176,81 +176,79 @@ const View = () => {
 
             <tr  scope="row">S.no:</tr><br></br>
 
-            <tr scope="row">criminal_category_id:</tr><br></br>
+            <tr scope="row">Reg.no:</tr><br></br>
 
-            <tr scope="row">criminal_category_name:</tr><br></br>
+            <tr scope="row">Student Name:</tr><br></br>
 
-            <tr scope="row">criminal_description:</tr><br></br>
+            <tr scope="row">Program:</tr><br></br>
 
-            <tr scope="row">nature_id:</tr><br></br>
+            <tr scope="row">Year of Join:</tr><br></br>
 
 
-            <tr scope="row">nature_name:</tr><br></br>
+            <tr scope="row">Number:</tr><br></br>
 
             <tr scope="row">nature_description:</tr><br></br>
 
-            <tr scope="row">criminal_address:</tr><br></br>
+            <tr scope="row">Address:</tr><br></br>
 
-            <tr scope="row">victim_id:</tr><br></br>
+            <tr scope="row">12th Marks:</tr><br></br>
+            <tr scope="row">Fee:</tr><br></br>
 
+            <tr scope="row">Father Name:</tr><br></br>
 
-            <tr scope="row">victim_name:</tr><br></br>
+            <tr scope="row">Occupation:</tr><br></br>
 
-            <tr scope="row">victim_address:</tr><br></br>
-
-            <tr scope="row">victim_city:</tr><br></br>
-
-            <tr scope="row">victim_state:</tr><br></br>
+            <tr scope="row">Annual Income:</tr><br></br>
 
 
-            <tr scope="row">victim_country:</tr><br></br>
+            <tr scope="row">Qulification:</tr><br></br>
 
-            <tr scope="row">victim_pin:</tr><br></br>
+            <tr scope="row">Number:</tr><br></br>
 
-            <tr scope="row">victim_phone:</tr><br></br>
+            <tr scope="row">Email:</tr><br></br>
 
-            <tr scope="row">victim_dob:</tr><br></br>
-
-
-            <tr scope="row">victim_fir_registration_date:</tr><br></br>
-
-            <tr scope="row">victim_other_details:</tr><br></br>
-
-            <tr scope="row">victim_fir_id:</tr><br></br>
-
-            <tr scope="row">crime_nature"</tr><br></br>
+            <tr scope="row">Address:</tr><br></br>
 
 
-            <tr scope="row">investigation_officer_id:</tr><br></br>
+            <tr scope="row">Mother Name:</tr><br></br>
 
-            <tr scope="row">crime_date:</tr><br></br>
+            <tr scope="row">Occupation:</tr><br></br>
 
-            <tr scope="row">investigation_id:</tr><br></br>
+            <tr scope="row">Qulification:</tr><br></br>
 
-            <tr scope="row">investigation_start_date:</tr><br></br>
-
-
-            <tr scope="row">investigation_end_date:</tr><br></br>
-
-            <tr scope="row">evidence_id:</tr><br></br>
-
-            <tr scope="row">evidence_name</tr><br></br>
-
-            <tr scope="row">evidence_date:</tr><br></br>
+            <tr scope="row">Number:</tr><br></br>
 
 
-            <tr scope="row">evidence_description:</tr><br></br>
+            <tr scope="row">Email:</tr><br></br>
 
-            <tr scope="row">crime_classification:</tr><br></br>
+            <tr scope="row">Annual Salary:</tr><br></br>
 
-            <tr scope="row">witness_id:</tr><br></br>
+            <tr scope="row">Address:</tr><br></br>
 
-            <tr scope="row">witness_name:</tr><br></br>
+            <tr scope="row">10th class marks:</tr><br></br>
 
 
-            <tr scope="row">witness_number:</tr><br></br>
+            <tr scope="row">12th marks:</tr><br></br>
 
-            <tr scope="row">witness_address:</tr><br></br>
+            <tr scope="row">Entrance Exam marks:</tr><br></br>
+
+            <tr scope="row">Program</tr><br></br>
+
+            <tr scope="row">Year of Join</tr><br></br>
+
+
+            <tr scope="row">Year of Pass out:</tr><br></br>
+
+            <tr scope="row">Blood Group:</tr><br></br>
+
+            <tr scope="row">Medical illness:</tr><br></br>
+
+            <tr scope="row">Any Surgery:</tr><br></br>
+
+
+            <tr scope="row">Siblings:</tr><br></br>
+
+            <tr scope="row">State/CBSE:</tr><br></br>
 
             <tr scope="row"></tr><br></br>
 
